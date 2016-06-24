@@ -1,0 +1,35 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "New York Times article scrubber. Search your topic and enter a range of dates, read articles right away or save them for later.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "css-loader": "^0.23.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.20",
+    "morgan": "^1.7.0",
+    "node-sass": "^3.8.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-materialize": "^0.14.4",
+    "react-router": "^2.4.1",
+    "react-toolbox": "^1.0.1",
+    "sass-loader": "^3.2.1",
+    "style-loader": "^0.13.1"
+  },
+  "devDependencies": {
+    "axios": "^0.12.0",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "John Reda",
+  "license": "ISC"
+}
