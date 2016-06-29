@@ -3,7 +3,8 @@ import React from 'react';
 import Router from 'react-router';
 
 
-import {button} from 'react-toolbox/lib/button'
+import RaisedButton from 'material-ui/RaisedButton';
+
 
 
 // CREATE THE MAIN COMPONENT
@@ -16,12 +17,9 @@ var Main = React.createClass({
 
 
 			<div className="main-container">
+				<Button icon='inbox' label='Inbox' flat />
 				
-				{/*NAVBAR*/}
-				<Navbar brand='NYT REACTIONS' right>
-  					<NavItem href='#/search'>Search</NavItem>
-  					<NavItem href='#/saved'>Saved Artciles</NavItem>
-				</Navbar>
+
 
 				{/*HEADER*/}
 				<div className="container-fluid">

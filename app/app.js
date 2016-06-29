@@ -1,11 +1,17 @@
 
 // MAIN DEPENDENCIES
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import {Button} from 'react-toolbox/lib/button'
+
+
+
+
 
 
 // GRAB THE PROPERTY ASSOCIATED WITH THE ROUTER
-var Router = require('react-router').Router
+import { Router, Route, Link, browserHistory } from 'react-router';
 
 
 // GRAB THE ROUTES
@@ -19,4 +25,6 @@ ReactDOM.render(
 
 	<Router>{routes}</Router>,
 	document.getElementById('app')
-)
+
+
+);	

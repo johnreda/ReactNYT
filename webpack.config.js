@@ -1,13 +1,11 @@
 module.exports = {
-
-  // This code will be compiled
-  entry: "./app/App.js",
+  
+  // This code will be compiled 
+  entry: "./app/app.js",
 
   // Then output into this file
   output: {
-    filename: "public/bundle.js",
-    library: 'require',
-    libraryTarget: 'this'
+    filename: "public/bundle.js"
   },
 
 
@@ -19,21 +17,11 @@ module.exports = {
         excluse: /(node_modules|bower_components)/,
         loader: 'babel',
         query: {
-          // These are the specific transformations we'll be using.
+          // These are the specific transformations we'll be using. 
           presets: ['react', 'es2015']
         }
       }
     ]
-  },
-    module: {
-    loaders: [
-      {
-        test: /\.scss$/,
-        loaders: ["style", "css", "sass"]
-      }
-    ]
   }
 
-};
-
-
+}
